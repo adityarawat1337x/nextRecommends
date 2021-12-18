@@ -82,7 +82,6 @@ const Movies = () => {
             justifyContent="center"
             fontSize="1xl"
             m={30}
-            color="black"
           >
             <Link href={`/results/${uid}`} textDecoration="none">
               Generate Recommendations
