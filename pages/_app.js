@@ -2,12 +2,6 @@ import "../styles/globals.css";
 import { AnimateSharedLayout } from "framer-motion";
 import { ChakraProvider } from "@chakra-ui/react";
 import { Neo4jProvider, createDriver } from "use-neo4j";
-import {
-  ThemeProvider,
-  theme,
-  ColorModeProvider,
-  CSSReset,
-} from "@chakra-ui/core";
 
 function MyApp({ Component, pageProps }) {
   // return (

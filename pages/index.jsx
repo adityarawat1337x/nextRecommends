@@ -65,6 +65,7 @@ export default function Home() {
           p={50}
           borderRadius="10"
           m={50}
+          boxShadow="2xl"
         >
           {records &&
             records.map((row) => {
@@ -87,20 +88,24 @@ export default function Home() {
                       maxW="sm"
                       borderWidth="1px"
                       overflow="hidden"
-                      bg="#3b4152"
                       textAlign="center"
                       p={2}
+                      backgroundColor="gray.200"
                       borderRadius="10"
+                      boxShadow="xl"
                     >
                       <Avatar
                         round={true}
-                        name={row.get("u").properties.occupation}
+                        name={
+                          row.get("u").properties.occupation +
+                          " " +
+                          row.get("u").properties.user_id
+                        }
                       ></Avatar>
                       <Box
                         mt="1"
                         fontWeight="semibold"
                         as="h4"
-                        color="#ffffff"
                         lineHeight="tight"
                         textTransform="capitalize"
                       >
