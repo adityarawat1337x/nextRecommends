@@ -72,7 +72,7 @@ const RMovies = () => {
           p={100}
         >
           <Heading>Recommended Movies</Heading>
-          <Table variant="simple" m={100}>
+          <Table variant="striped" m={100}>
             <TableCaption>Dataset of movies</TableCaption>
             <Thead>
               <Tr>

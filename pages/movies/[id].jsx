@@ -88,7 +88,7 @@ const Movies = () => {
               Generate Recommendations
             </Link>
           </Button>
-          <Table variant="simple" m={100}>
+          <Table variant="striped" m={100}>
             <TableCaption>Dataset of movies</TableCaption>
             <Thead>
               <Tr>
